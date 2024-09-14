@@ -20,7 +20,8 @@ $ git add <name file> -> add specify file. Eg: git add index.html
 # commit code
 $ git commit -m "logic login page"
 
-
+# push new code in remote origin
+$ git push
 
 
 ```
