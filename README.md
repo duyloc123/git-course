@@ -7,9 +7,12 @@
 - GitLens
 - Git History
 
-## cmd git
+## Git CLI
 
 ```bash
+# check version git
+$ git --version
+
 # pull lasted code from remote
 $ git pull
 
@@ -23,5 +26,24 @@ $ git commit -m "logic login page"
 # push new code in remote origin
 $ git push
 
+# check status git
+$ git status
+
+```
+
+# step to step to push code on remote git
+
+```bash
+# clone source code
+$ git clone https://github.com/duyloc123/pure-javascript-issue.git
+
+# add file
+$ git add .
+
+# commit code 
+$ git commit -m "create list issues with javascript"
+
+# push code on remote git
+$ git push
 
 ```
